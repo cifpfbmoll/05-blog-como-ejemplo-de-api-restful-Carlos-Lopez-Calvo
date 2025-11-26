@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: restaurant_api_app
+    ports:
+      - "8081:80"
+    environment:
+      CI_ENVIRONMENT: development
+
+
